@@ -215,7 +215,7 @@ const Footer = () => {
             <p>© Hakan Ünlü 2023. All Rights Reserved. </p>
 
             <p style={{ display: 'flex', margin: '3px' }}>
-              Made with ❤️ by Hakan Ünlü
+              Made with ❤️❤️❤️ by Hakan Ünlü
             </p>
           </div>
         </div>
