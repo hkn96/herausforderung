@@ -25,7 +25,7 @@ const Header = () => {
   return (
     <section>
       <Navbar
-        className='probootstrap-navabr-dark'
+        className='navbar navbar-expand-lg navbar-dark bg-dark probootstrap-navabr-dark'
         expand='lg'
         bg='dark'
         variant='dark'
@@ -51,7 +51,7 @@ const Header = () => {
       </Navbar>
 
       <section
-        className='bg-image probootstrap-cover overlay'
+        className='probootstrap-cover overlay'
         style={{ backgroundImage: `url(${bg1} )` }}
       >
         <Container>

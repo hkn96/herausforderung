@@ -5,7 +5,7 @@ import bg1 from '../../assets/images/bg_1.jpg';
 const Subscribe = () => {
   return (
     <section
-      className='bg-image probootstrap-cover overlay'
+      className='probootstrap-cover overlay'
       style={{
         backgroundImage: `url(${bg1} )`,
       }}

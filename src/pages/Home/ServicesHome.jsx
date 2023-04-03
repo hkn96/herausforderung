@@ -1,5 +1,14 @@
 import React from 'react';
 import { Container, Card } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faThumbsUp,
+  faWrench,
+  faUser,
+  faPaperPlane,
+  faDesktop,
+  faPencil,
+} from '@fortawesome/free-solid-svg-icons';
 
 const ServicesHome = () => {
   return (
@@ -21,8 +30,13 @@ const ServicesHome = () => {
       <div className='row'>
         <div className='col-lg-4 col-md-6  mb-3 '>
           <Card style={{ width: '24rem' }}>
-            <div className='probootstrap-icon mb-3'>
-              <span className='oi oi-thumb-up display-4'>❤️</span>
+            <div className='probootstrap-icon mb-3 '>
+              <span className='oi oi-thumb-up display-4'>
+                <FontAwesomeIcon
+                  style={{ color: '#6dc234', marginLeft: '15px' }}
+                  icon={faThumbsUp}
+                />
+              </span>
             </div>
             <Card.Body>
               <Card.Title>Free Bootstrap 4</Card.Title>
@@ -36,7 +50,12 @@ const ServicesHome = () => {
         <div className='col-lg-4 col-md-6  mb-3 '>
           <Card style={{ width: '24rem' }}>
             <div className='probootstrap-icon mb-3'>
-              <span className='oi oi-thumb-up display-4'>❤️</span>
+              <span className='oi oi-thumb-up display-4'>
+                <FontAwesomeIcon
+                  style={{ color: '#6dc234', marginLeft: '15px' }}
+                  icon={faWrench}
+                />
+              </span>
             </div>
             <Card.Body>
               <Card.Title>Web Development</Card.Title>
@@ -50,7 +69,12 @@ const ServicesHome = () => {
         <div className='col-lg-4 col-md-6  mb-3 '>
           <Card style={{ width: '24rem' }}>
             <div className='probootstrap-icon mb-3'>
-              <span className='oi oi-thumb-up display-4'>❤️</span>
+              <span className='oi oi-thumb-up display-4'>
+                <FontAwesomeIcon
+                  style={{ color: '#6dc234', marginLeft: '15px' }}
+                  icon={faUser}
+                />
+              </span>
             </div>
             <Card.Body>
               <Card.Title>For People Like You</Card.Title>
@@ -64,7 +88,12 @@ const ServicesHome = () => {
         <div className='col-lg-4 col-md-6  mb-3 '>
           <Card style={{ width: '24rem' }}>
             <div className='probootstrap-icon mb-3'>
-              <span className='oi oi-thumb-up display-4'>❤️</span>
+              <span className='oi oi-thumb-up display-4'>
+                <FontAwesomeIcon
+                  style={{ color: '#6dc234', marginLeft: '15px' }}
+                  icon={faPaperPlane}
+                />
+              </span>
             </div>
             <Card.Body>
               <Card.Title>Free Bootstrap 4</Card.Title>
@@ -78,7 +107,12 @@ const ServicesHome = () => {
         <div className='col-lg-4 col-md-6  mb-3 '>
           <Card style={{ width: '24rem' }}>
             <div className='probootstrap-icon mb-3'>
-              <span className='oi oi-thumb-up display-4'>❤️</span>
+              <span className='oi oi-thumb-up display-4'>
+                <FontAwesomeIcon
+                  style={{ color: '#6dc234', marginLeft: '15px' }}
+                  icon={faDesktop}
+                />
+              </span>
             </div>
             <Card.Body>
               <Card.Title>Web Development</Card.Title>
@@ -89,10 +123,18 @@ const ServicesHome = () => {
             </Card.Body>
           </Card>
         </div>
-        <div className='col-lg-4 col-md-6 mb-3 '>
-          <Card style={{ width: '24rem' }}>
+        <div
+          className='col-lg-4 col-md-6 mb-3 '
+          style={{ heigth: '24rem' }}
+        >
+          <Card>
             <div className='probootstrap-icon mb-3'>
-              <span className='oi oi-thumb-up display-4'>❤️</span>
+              <span className='oi oi-thumb-up display-4'>
+                <FontAwesomeIcon
+                  style={{ color: '#6dc234', marginLeft: '15px' }}
+                  icon={faPencil}
+                />
+              </span>
             </div>
             <Card.Body>
               <Card.Title>For People Like You</Card.Title>
